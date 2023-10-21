@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+
+      * {
+        box-sizing: border-box;
+      }
+
+body{
+ font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: hsl(212, 45%, 89%);
+}
+h2{
+  width: 300px;
+  font-weight: 700;
+}
+p{
+  width: 250px;
+  font-weight: 400;
+}
+img{
+  border-radius: 5%; 
+  width: 300px;
+  height: auto;
+}
+.container{
+  width: fit-content;
+  height: auto;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5%;
+  background-color: white; 
+}
+    .attribution { display: inline-block; font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media only screen and (min-width: 1440px) {
+  /* Your styles for screens with a width of 1440 pixels or more go here */
+   body {
+  font-size: 15px;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: hsl(212, 45%, 89%);
+}
+
+h2 {
+  max-width: 600px; /* Adjusted max-width for larger screens */
+  font-weight: 700;
+}
+
+p {
+  max-width: 400px; /* Adjusted max-width for larger screens */
+  font-weight: 400;
+}
+
+img {
+  border-radius: 5%;
+  max-width: 600px; /* Adjusted max-width for larger screens */
+  height: auto;
+}
+
+.container {
+  width: 80%; /* Adjusted width for larger screens */
+  max-width: 800px; /* Added max-width for larger screens */
+  margin: 20px; /* Adjusted margin for larger screens */
+  padding: 20px; /* Adjusted padding for larger screens */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 5%;
+  background-color: white;
+}
+
+.attribution {
+  display: inline-block;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+}
